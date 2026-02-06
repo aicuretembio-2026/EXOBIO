@@ -1209,6 +1209,25 @@
     
     <!-- 얼굴 감지 라이브러리 (face-api.js) -->
     <script src="https://cdn.jsdelivr.net/npm/@vladmandic/face-api/dist/face-api.min.js"></script>
+
+    <!-- 🌐 URL 파라미터에서 언어 받아오기 (i18n 로드 전에 실행) -->
+<script>
+    // URL에서 lang 파라미터 확인
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlLang = urlParams.get('lang');
+    
+    if (urlLang) {
+        console.log('🌍 [URL 언어 감지]:', urlLang);
+        
+        // localStorage에 저장 (i18n이 로드되기 전에)
+        localStorage.setItem('language', urlLang);
+        localStorage.setItem('landingLanguage', urlLang);
+        localStorage.setItem('preferred_language', urlLang);
+    } else {
+        console.log('ℹ️ [URL 언어 없음] localStorage 사용');
+    }
+</script>
+
     
     <!-- 다국어 시스템 (10개 언어: 한국어, English, 日本語, 中文(简体), 中文(繁體), ไทย, Tiếng Việt, Indonesia, Melayu, Español, Français) -->
     <script src="js/i18n.js?v=20260204-FR-COMPLETE-V25.1"></script>
