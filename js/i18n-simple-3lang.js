@@ -2,7 +2,7 @@
 // 한국어, English, 日本語, 中文, ภาษาไทย, Tiếng Việt, Bahasa Indonesia, Bahasa Melayu, Español, Français
 
 const SUPPORTED_LANGUAGES = ['ko', 'en', 'ja', 'zh-TW', 'th', 'vi', 'id', 'ms', 'es', 'fr'];
-let currentLang = localStorage.getItem('language') || 'ko';
+
 let translations = {};
 
 // JSON 파일에서 번역 로드
@@ -102,6 +102,9 @@ async function changeLanguage(lang) {
 // 초기화
 document.addEventListener('DOMContentLoaded', async () => {
     console.log('🚀 i18n 시스템 초기화...');
+    
+    // URL 파라미터 또는 localStorage에서 언어 읽기
+    currentLang = localStorage.getItem('language') || 'ko';
     console.log(`📌 현재 언어: ${currentLang}`);
     
     const success = await loadTranslations(currentLang);
