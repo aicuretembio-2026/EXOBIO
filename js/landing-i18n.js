@@ -632,7 +632,9 @@ function getCurrentLanguage() {
 
 // 언어 저장
 function saveLanguage(lang) {
+        localStorage.setItem('language', lang);
     localStorage.setItem('landingLanguage', lang);
+    localStorage.setItem('preferred_language', lang);
 }
 
 // 텍스트 번역
