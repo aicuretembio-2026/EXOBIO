@@ -2,6 +2,7 @@
 // 한국어, English, 日本語, 中文, ภาษาไทย, Tiếng Việt, Bahasa Indonesia, Bahasa Melayu, Español, Français
 
 const SUPPORTED_LANGUAGES = ['ko', 'en', 'ja', 'zh-TW', 'th', 'vi', 'id', 'ms', 'es', 'fr'];
+let currentLang;
 
 let translations = {};
 
