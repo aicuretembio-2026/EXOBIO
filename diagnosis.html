@@ -22,6 +22,19 @@
         }
     </script>
     <meta charset="UTF-8">
+     <!-- ⚡ 최우선: URL 언어 파라미터 (모든 스크립트보다 먼저!) -->
+    <script>
+        (function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const urlLang = urlParams.get('lang');
+            if (urlLang) {
+                console.log('⚡ [최우선] URL 언어:', urlLang);
+                localStorage.setItem('language', urlLang);
+                localStorage.setItem('landingLanguage', urlLang);
+                localStorage.setItem('preferred_language', urlLang);
+            }
+        })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#000000">
     <meta name="description" content="CURETEMBIO AI 피부진단 - 10초 만에 10가지 피부 지표 분석. 피부과에서 시작해 약국이 인정한 EXOBIO 357앰플 맞춤 추천. 10개 언어 지원 (Français 포함). 100% 무료.">
