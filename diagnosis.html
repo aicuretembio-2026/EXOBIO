@@ -307,6 +307,37 @@
             }
         }
     </style>
+       <!-- 텍스트 오버플로우 수정 -->
+    <style>
+        /* 추천 이유 박스 텍스트 줄바꿈 */
+        .recommendation-reason,
+        .user-problem,
+        .care-recommendation,
+        [class*="recommendation"] {
+            word-wrap: break-word !important;
+            word-break: break-word !important;
+            overflow-wrap: break-word !important;
+            white-space: normal !important;
+            max-width: 100% !important;
+        }
+        
+        /* 추천 박스 내부 텍스트 */
+        .recommendation-box div,
+        .recommendation-box p,
+        .recommendation-box span {
+            word-wrap: break-word !important;
+            word-break: break-word !important;
+            overflow-wrap: break-word !important;
+            white-space: normal !important;
+        }
+        
+        /* 긴 단어 강제 줄바꿈 */
+        .user-problem-text,
+        .care-recommendation-text {
+            word-break: break-all !important;
+            hyphens: auto !important;
+        }
+    </style>
 </head>
 <body>
     <div class="app-container">
