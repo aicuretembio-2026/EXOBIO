@@ -560,5 +560,15 @@
   "getRecommendationLabel_daily_care": "Soins Quotidiens",
   "getRecommendationLabel_preventive_care": "Soins Préventifs",
   
-  "match_score": "Taux de Correspondance"
+  "match_score": "Taux de Correspondance",
+   "score_guide_title": "Guide d'interprétation des scores",
+  "score_guide_intro": "📊 Pour tous les indicateurs, un score plus élevé indique un meilleur état",
+  "score_90_above": "90 points et plus :",
+  "score_90_desc": "Excellent ✨",
+  "score_80_89": "80-89 points :",
+  "score_80_desc": "Bon (gestion préventive recommandée)",
+  "score_70_79": "70-79 points :",
+  "score_70_desc": "Amélioration nécessaire (soins réguliers)",
+  "score_60_69": "60-69 points :",
+  "score_60_desc": "Amélioration intensive nécessaire (soins immédiats) 🔥"
 }
