@@ -350,6 +350,21 @@
         .care-recommendation::-webkit-scrollbar-track {
             background: rgba(0, 0, 0, 0.1);
         }
+
+            /* 프랑스어 전용 - 추천 박스 폰트 크기 조정 */
+        html[lang="fr"] .recommendation-reason,
+        html[lang="fr"] .user-problem,
+        html[lang="fr"] .care-recommendation {
+            font-size: 0.85em !important;
+            line-height: 1.3 !important;
+        }
+        
+        /* 프랑스어 전용 - 빨간 박스 내부 텍스트 */
+        html[lang="fr"] .recommendation-box div,
+        html[lang="fr"] .recommendation-box p,
+        html[lang="fr"] .recommendation-box span {
+            font-size: 0.85em !important;
+                  }
     </style>
 </head>
 <body>
