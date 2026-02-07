@@ -3,7 +3,8 @@
   "app_subtitle": "L'IA analyse la santé de votre peau",
   
   "nav_home": "Accueil",
-  "nav_capture": "Capture",
+   "nav_capture": "Capture",
+  "capture_subtitle": "Veuillez cadrer votre visage dans le guide pour la capture",
   "nav_history": "Historique",
   "nav_info": "Info",
   
