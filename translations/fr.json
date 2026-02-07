@@ -562,6 +562,12 @@
   "getRecommendationLabel_preventive_care": "Soins Préventifs",
   
   "match_score": "Taux de Correspondance",
+  
+  "analysis_title": "🧬 Résultat de l'Analyse Cutanée IA",
+  "analysis_total_score": "Score Global de Santé Cutanée",
+  "analysis_home": "Accueil",
+  "analysis_retake": "Reprendre Photo",
+  
    "score_guide_title": "Guide d'interprétation des scores",
   "score_guide_intro": "📊 Pour tous les indicateurs, un score plus élevé indique un meilleur état",
   "score_90_above": "90 points et plus :",
