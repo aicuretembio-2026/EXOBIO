@@ -6,11 +6,11 @@
 // 제품 라인 정보
 const PRODUCT_LINE_INFO = {
     premium: {
-        name: 'EXOBIO 프리미엄 라인',
-        fullName: '프리미엄 엑소좀 357 앰플',
-        description: '스킨케어 효과를 한 단계 끌어올리는 업그레이드 프리미엄 엑소좀 357 앰플',
+        name: 'EXOBIO EXOSOME 라인',
+        fullName: 'EXOSOME 엑소좀 357 앰플',
+        description: '스킨케어 효과를 한 단계 끌어올리는 업그레이드 EXOSOME 엑소좀 357 앰플',
         usage: '주 3~4회 또는 필요시',
-        usageDetail: '집중 케어가 필요할 때 사용하는 프리미엄 앰플입니다.',
+        usageDetail: '집중 케어가 필요할 때 사용하는 EXOSOME 앰플입니다.',
         volume: '5ML × 5EA'
     },
     red: {
@@ -45,12 +45,12 @@ const USAGE_GUIDE = {
     }
 };
 
-// ⭐ EXOBIO 프리미엄 357 제품 라인
+// ⭐ EXOBIO EXOSOME 357 제품 라인
 const EXOBIO_PREMIUM = [
     {
         id: 'premium-3',
         number: 3,
-        name: 'EXOBIO 프리미엄 3번',
+        name: 'EXOBIO EXOSOME 3번',
         fullName: '엑소좀 비타 미백앰플',
         koreanName: '엑소좀 비타 미백앰플',
         japaneseName: 'エクソームビタブライトニングアンプル',
@@ -86,7 +86,7 @@ const EXOBIO_PREMIUM = [
     {
         id: 'premium-5',
         number: 5,
-        name: 'EXOBIO 프리미엄 5번',
+        name: 'EXOBIO EXOSOME 5번',
         fullName: '엑소좀 피디알엔 탄력앰플',
         koreanName: '엑소좀 피디알엔 탄력앰플',
         japaneseName: 'エクソソームPDRN弾力アンプル',
@@ -122,9 +122,9 @@ const EXOBIO_PREMIUM = [
     {
         id: 'premium-7',
         number: 7,
-        name: 'EXOBIO 프리미엄 7번',
-        fullName: '엑소좀 프리미엄 토탈앰플',
-        koreanName: '엑소좀 프리미엄 토탈앰플',
+        name: 'EXOBIO EXOSOME 7번',
+        fullName: '엑소좀 EXOSOME 토탈앰플',
+        koreanName: '엑소좀 EXOSOME 토탈앰플',
         japaneseName: 'エクソソームプレミアムトータルアンプル',
         chineseName: '外泌体高端全效精华',
         englishName: 'EXOSOME PREMIUM TOTAL AMPOULE 5ML×5EA',
@@ -268,53 +268,53 @@ const EXOBIO_RED = [
 const AI_METRIC_TO_PRODUCT_MATCHING = {
     '색소침착': {
         priority1: 'red-3',     // RED 3번 (강력 미백 62+)
-        priority2: 'premium-3', // 프리미엄 3번 (VITA 미백)
+        priority2: 'premium-3', // EXOSOME 3번 (VITA 미백)
         threshold: 75           // 75점 미만 시 추천
     },
     '톤 균일도': {
-        priority1: 'premium-3', // 프리미엄 3번 (VITA 미백)
+        priority1: 'premium-3', // EXOSOME 3번 (VITA 미백)
         priority2: 'red-3',     // RED 3번 (강력 미백)
         threshold: 75
     },
     '주름': {
-        priority1: 'premium-5', // 프리미엄 5번 (PDRN 탄력)
+        priority1: 'premium-5', // EXOSOME 5번 (PDRN 탄력)
         priority2: 'red-5',     // RED 5번 (PDRN 10000+)
         threshold: 75
     },
     '탄력': {
-        priority1: 'premium-5', // 프리미엄 5번 (PDRN 탄력)
+        priority1: 'premium-5', // EXOSOME 5번 (PDRN 탄력)
         priority2: 'red-5',     // RED 5번 (PDRN 10000+)
         threshold: 75
     },
     '수분': {
         priority1: 'red-7',     // RED 7번 (CICA 7600+)
-        priority2: 'premium-7', // 프리미엄 7번 (CICA 토탈)
+        priority2: 'premium-7', // EXOSOME 7번 (CICA 토탈)
         threshold: 75
     },
     '민감도': {
-        priority1: 'premium-7', // 프리미엄 7번 (CICA 진정)
+        priority1: 'premium-7', // EXOSOME 7번 (CICA 진정)
         priority2: 'red-7',     // RED 7번 (CICA 7600+)
         threshold: 70,          // 70점 초과 시 추천 (민감함)
         isHigherBad: true       // 점수가 높을수록 안 좋음
     },
     '홍조': {
-        priority1: 'premium-7', // 프리미엄 7번 (진정)
+        priority1: 'premium-7', // EXOSOME 7번 (진정)
         priority2: 'red-7',     // RED 7번 (CICA 진정)
         threshold: 70,
         isHigherBad: true
     },
     '여드름': {
-        priority1: 'premium-7', // 프리미엄 7번 (진정+장벽)
+        priority1: 'premium-7', // EXOSOME 7번 (진정+장벽)
         priority2: 'red-7',     // RED 7번 (진정 강화)
         threshold: 75
     },
     '모공': {
-        priority1: 'premium-3', // 프리미엄 3번 (피부결)
+        priority1: 'premium-3', // EXOSOME 3번 (피부결)
         priority2: 'red-3',     // RED 3번 (피부 개선)
         threshold: 75
     },
     '피부결': {
-        priority1: 'premium-5', // 프리미엄 5번 (탄력)
+        priority1: 'premium-5', // EXOSOME 5번 (탄력)
         priority2: 'red-5',     // RED 5번 (재생)
         threshold: 75
     }
@@ -322,8 +322,8 @@ const AI_METRIC_TO_PRODUCT_MATCHING = {
 
 // 📝 기본 예방 관리 추천 (건강한 피부용)
 const DEFAULT_PREVENTIVE_RECOMMENDATIONS = [
-    'premium-3', // 프리미엄 3번 (미백) - 피부 톤 유지 & 예방
-    'premium-7'  // 프리미엄 7번 (토탈) - 피부 건강 유지
+    'premium-3', // EXOSOME 3번 (미백) - 피부 톤 유지 & 예방
+    'premium-7'  // EXOSOME 7번 (토탈) - 피부 건강 유지
 ];
 
 // 🎯 제품 추천 로직 함수 (설문 데이터 기반 강화!)
