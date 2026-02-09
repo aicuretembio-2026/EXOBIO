@@ -253,18 +253,18 @@
   "alert_clear_all_data": "Voulez-vous supprimer toutes mes données ?\n\nToutes les données de capture et d'analyse seront supprimées.\n\nCette action ne peut pas être annulée.",
   "alert_all_data_cleared": "✅ Toutes les données ont été supprimées.",
   
-  "product_premium": "Ligne Premium EXOBIO",
+  "product_premium": "Ligne EXOSOME EXOBIO",
   "product_red": "Ligne RED EXOBIO",
   "product_3": "N°3 Vita (Éclaircissant)",
   "product_5": "N°5 PDRN (Anti-Âge)",
   "product_7": "N°7 Cica (Apaisant)",
-  "product_premium_5": "EXOBIO Premium N°5",
+  "product_premium_5": "EXOBIO EXOSOME N°5",
   "product_red_5": "EXOBIO RED N°5",
   
-  "name_premium_single": "Premium",
+  "name_premium_single": "EXOSOME",
   "name_red_single": "RED",
-  "name_mix": "Premium+RED",
-  "name_premium_red": "Premium",
+  "name_mix": "EXOSOME+RED",
+  "name_premium_red": "EXOSOME",
   
   "label_intensive_care": "Soins Intensifs Recommandés",
   "label_complex_care": "Soins Complexes Nécessaires",
@@ -300,7 +300,7 @@
   "usage_guide_title": "Guide d'Utilisation",
   
   "usage_tip_title": "💡 Conseil d'Utilisation",
-  "usage_tip_premium": "Premium : Utilisez 3-4 fois par semaine ou au besoin pour des soins intensifs.",
+  "usage_tip_premium": "EXOSOME : Utilisez 3-4 fois par semaine ou au besoin pour des soins intensifs.",
   "usage_tip_red": "RED : Utilisation quotidienne recommandée pour l'entretien et la prévention.",
   "usage_tip_order": "Ordre d'utilisation : Nettoyage → Ampoule EXOBIO (première étape) → Produits habituels",
   "usage_tip_content": "Appliquez comme première étape après le nettoyage pour de meilleurs résultats ! Vous pouvez continuer à utiliser vos produits actuels. 😊",
