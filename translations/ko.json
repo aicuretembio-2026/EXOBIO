@@ -36,7 +36,7 @@
   
   "tech_personalized_title": "개인 맞춤형 제품 추천",
   "tech_personalized_desc": "피부 분석 결과를 기반으로 적합한 제품을 추천해 드립니다.",
-  "tech_personalized_desc_long": "피부 분석 결과를 기반으로 EXOBIO 제품 중 사용자에게 적합한 제품 조합을 추천해 드립니다. 더블UP 시스템을 통해 프리미엄 라인과 RED 라인의 조합으로 보다 효과적인 피부 케어를 경험하실 수 있습니다. 보다 전문적인 피부 상담이 필요하신 경우, 공식 이메일을 통해 1:1 맞춤 상담을 받으실 수 있습니다.",
+  "tech_personalized_desc_long": "피부 분석 결과를 기반으로 EXOBIO 제품 중 사용자에게 적합한 제품 조합을 추천해 드립니다. 더블UP 시스템을 통해 EXOSOME 라인과 RED 라인의 조합으로 보다 효과적인 피부 케어를 경험하실 수 있습니다. 보다 전문적인 피부 상담이 필요하신 경우, 공식 이메일을 통해 1:1 맞춤 상담을 받으실 수 있습니다.",
   
   "metric_1": "톤 균일도",
   "metric_1_desc": "피부톤 균일성",
@@ -208,12 +208,12 @@
   
   "issue_combined_default": "개선이 필요합니다. 복합적인 케어가 필요합니다.",
   
-  "product_premium": "프리미엄",
+  "product_premium": "EXOSOME",
   "product_red": "RED",
   
-  "product_premium_3": "EXOBIO 프리미엄 3번",
-  "product_premium_5": "EXOBIO 프리미엄 5번",
-  "product_premium_7": "EXOBIO 프리미엄 7번",
+  "product_premium_3": "EXOBIO EXOSOME 3번",
+  "product_premium_5": "EXOBIO EXOSOME 5번",
+  "product_premium_7": "EXOBIO EXOSOME 7번",
   "product_red_3": "EXOBIO RED 3번",
   "product_red_5": "EXOBIO RED 5번",
   "product_red_7": "EXOBIO RED 7번",
@@ -297,26 +297,26 @@
   "alert_storage_full": "저장 공간이 부족합니다.\n오래된 기록을 삭제하고 다시 시도합니다.",
   "alert_save_failed": "저장에 실패했습니다.\n기록 페이지에서 모든 기록을 삭제한 후 다시 시도해주세요.",
   
-  "label_premium_double": "번 프리미엄 더블UP",
+  "label_premium_double": "번 EXOSOME 더블UP",
   "label_intensive_complex": "강력 복합 집중 케어",
   "label_complex_care": "복합 집중 케어",
   "label_balanced_care": "맞춤형 복합 케어",
   
-  "desc_premium_intensive": "⭐⭐⭐ 프리미엄 강력 집중 케어",
-  "desc_premium_dual": "⭐⭐⭐ 프리미엄 듀얼 강력 케어",
-  "desc_premium_red_intensive": "⭐⭐ 프리미엄 + 실속형 집중 케어",
-  "desc_premium_red_complex": "⭐⭐ 프리미엄 + RED 복합 케어",
+  "desc_premium_intensive": "⭐⭐⭐ EXOSOME 강력 집중 케어",
+  "desc_premium_dual": "⭐⭐⭐ EXOSOME 듀얼 강력 케어",
+  "desc_premium_red_intensive": "⭐⭐ EXOSOME + 실속형 집중 케어",
+  "desc_premium_red_complex": "⭐⭐ EXOSOME + RED 복합 케어",
   "desc_dual_focus": "⭐ 집중 + 예방 케어",
   "desc_single_focus": "⭐ 집중 케어",
   "desc_daily_care": "💚 데일리 케어",
   "desc_maintenance": "💚 유지 관리",
   
-  "name_premium_double": "번 프리미엄 더블UP",
-  "name_premium_dual": "프리미엄",
+  "name_premium_double": "번 EXOSOME 더블UP",
+  "name_premium_dual": "EXOSOME",
   "name_doubleup": "번 더블UP",
-  "name_premium_red": "프리미엄",
+  "name_premium_red": "EXOSOME",
   "name_mix": "번",
-  "name_premium_single": "프리미엄",
+  "name_premium_single": "EXOSOME",
   "name_red_single": "RED",
   "name_red_preventive": "RED 7번 (진정/수분)",
   
@@ -333,12 +333,12 @@
   "problem_healthy": "건강한 피부 유지",
   "problem_prevention_reason": "건강한 피부 상태 유지",
   
-  "reason_intensive_single": "🔥 집중 관리가 필요한 상태로 프리미엄 라인의 강력 케어를 추천합니다. 주 3~4회 집중적으로 사용하면 8-12주 내 눈에 띄는 개선을 경험하실 수 있습니다.",
+  "reason_intensive_single": "🔥 집중 관리가 필요한 상태로 EXOSOME 라인의 강력 케어를 추천합니다. 주 3~4회 집중적으로 사용하면 8-12주 내 눈에 띄는 개선을 경험하실 수 있습니다.",
   "reason_premium_single": "💊 집중 케어로 빠른 개선이 필요합니다. 첫 단계에 사용하는 것을 추천합니다.",
-  "reason_balanced_single": "💚 프리미엄과 데일리 케어를 함께하면 효과적입니다.",
+  "reason_balanced_single": "💚 EXOSOME과 데일리 케어를 함께하면 효과적입니다.",
   "reason_daily_single": "💚 매일 아침, 저녁으로 꾸준히 관리해주세요.",
-  "reason_intensive_dual": "🔥 두 가지 문제 모두 관리가 필요하여 프리미엄 듀얼 조합의 강력 케어를 추천합니다. 각 제품을 아침과 저녁에 매일 첫 단계에서 사용하시면 됩니다.",
-  "reason_balanced_dual": "💚 프리미엄과 데일리 케어를 함께하면 효과적입니다.",
+  "reason_intensive_dual": "🔥 두 가지 문제 모두 관리가 필요하여 EXOSOME 듀얼 조합의 강력 케어를 추천합니다. 각 제품을 아침과 저녁에 매일 첫 단계에서 사용하시면 됩니다.",
+  "reason_balanced_dual": "💚 EXOSOME과 데일리 케어를 함께하면 효과적입니다.",
   
   "info_diagnosis_title": "AI 피부진단 공식 사이트",
   "info_diagnosis_desc": "AI 기반 10가지 피부 지표 분석 시스템",
@@ -367,7 +367,7 @@
   "faq_a6": "EXOBIO 제품은 공식 쇼핑몰과 전국 약국, 피부과에서 구매 가능합니다. 정보 페이지에서 공식 쇼핑몰 링크를 확인하실 수 있습니다.",
   
   "faq_q7": "제품을 여러 개 함께 사용해도 되나요?",
-  "faq_a7": "네, 가능합니다. 더블UP 시스템은 프리미엄 라인과 RED 라인을 조합하여 복합적인 피부 문제를 동시에 케어하는 방식입니다. 각 제품을 주 3~4회 번갈아 사용하면 효과적입니다.",
+  "faq_a7": "네, 가능합니다. 더블UP 시스템은 EXOSOME 라인과 RED 라인을 조합하여 복합적인 피부 문제를 동시에 케어하는 방식입니다. 각 제품을 주 3~4회 번갈아 사용하면 효과적입니다.",
   
   "faq_q8": "기존 제품과 함께 사용해도 되나요?",
   "faq_a8": "네, EXOBIO 앰플은 클렌징 후 스킨케어 첫 단계에 사용하는 제품이므로, 기존에 사용하시던 스킨, 로션, 크림 등은 그대로 사용하셔도 됩니다.",
@@ -381,14 +381,14 @@
   "faq_q11": "EXOBIO 357 앰플이란 무엇인가요?",
   "faq_a11": "EXOBIO 357 앰플은 피부과에서 시작해 약국이 인정한 엑소좀 기반 스킨케어 제품입니다. 피부 탄력, 미백, 진정, 보습 등 다양한 피부 고민을 해결할 수 있도록 개발되었으며, 스킨케어 첫 단계에 사용하여 효과를 UP 시킵니다.",
   
-  "faq_q12": "프리미엄 라인과 RED 라인의 차이는 무엇인가요?",
-  "faq_a12": "프리미엄 라인은 집중 케어가 필요한 피부를 위한 고농축 제품이며, RED 라인은 데일리 케어 및 예방 관리용 제품입니다. 피부 상태에 따라 단일 또는 조합(더블UP)하여 사용할 수 있습니다.",
+  "faq_q12": "EXOSOME 라인과 RED 라인의 차이는 무엇인가요?",
+  "faq_a12": "EXOSOME 라인은 집중 케어가 필요한 피부를 위한 고농축 제품이며, RED 라인은 데일리 케어 및 예방 관리용 제품입니다. 피부 상태에 따라 단일 또는 조합(더블UP)하여 사용할 수 있습니다.",
   
   "faq_q13": "3번, 5번, 7번은 무엇을 의미하나요?",
   "faq_a13": "3번은 미백(브라이트닝), 5번은 탄력(엘라스틴), 7번은 진정/보습(배리어) 기능에 특화된 제품 번호입니다. AI 분석 결과에 따라 가장 적합한 번호의 제품이 추천됩니다.",
   
   "faq_q14": "29가지 조합이란 무엇인가요?",
-  "faq_a14": "EXOBIO 프리미엄(3종)과 RED(3종) 라인의 단일 사용 및 조합을 통해 총 29가지 맞춤형 케어 조합이 가능합니다. AI가 사용자의 피부 상태를 분석하여 최적의 조합을 자동으로 추천합니다.",
+  "faq_a14": "EXOBIO EXOSOME(3종)과 RED(3종) 라인의 단일 사용 및 조합을 통해 총 29가지 맞춤형 케어 조합이 가능합니다. AI가 사용자의 피부 상태를 분석하여 최적의 조합을 자동으로 추천합니다.",
   
   "faq_q15": "내 사진이 서버에 저장되나요?",
   "faq_a15": "아니요. 모든 촬영 이미지와 분석 데이터는 사용자의 기기(브라우저)에만 암호화되어 저장되며, 서버로 전송되지 않습니다. 개인정보 보호를 최우선으로 하고 있습니다.",
