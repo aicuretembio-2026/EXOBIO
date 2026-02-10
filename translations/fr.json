@@ -577,5 +577,14 @@
   "score_70_79": "70-79 points :",
   "score_70_desc": "Amélioration nécessaire (soins réguliers)",
   "score_60_69": "60-69 points :",
-  "score_60_desc": "Amélioration intensive nécessaire (soins immédiats) 🔥"
+  "score_60_desc": "Amélioration intensive nécessaire (soins immédiats) 🔥",
+  "recommend_reason_title": "Raison de la Recommandation",
+  "product_detail_more": "Besoin d'informations plus détaillées ?",
+  "product_detail_desc": "Consultez les informations détaillées sur les produits EXOBIO, les méthodes d'utilisation, les informations sur les ingrédients et les conseils de soins de la peau.",
+  "goto_info_page": "Aller à la page d'informations",
+  "image_zoom": "Agrandir",
+  "product_detail": "Détails du Produit",
+  "usage_guide": "Guide d'Utilisation",
+  "skincare_tips": "Conseils de Soins",
+  "expert_consult_sns": "Vous pouvez également consulter les informations sur les consultations d'experts et les réseaux sociaux officiels d'EXOBIO"
 }
